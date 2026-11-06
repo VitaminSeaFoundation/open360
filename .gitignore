@@ -1,0 +1,28 @@
+# build output
+stitcher/.build/
+stitcher/.swiftpm/
+*.xcodeproj/
+__pycache__/
+*.pyc
+
+# media & generated files (never commit footage: large and may show people)
+*.insv
+*.lrv
+*.insp
+*.mp4
+*.mov
+*.png
+*.jpg
+*.exr
+open360_links/
+*.open360.lua
+video_sample/
+
+# third-party binaries / installers (proprietary, not redistributable)
+*.pkg
+*.dmg
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
